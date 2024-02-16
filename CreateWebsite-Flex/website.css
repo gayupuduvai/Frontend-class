@@ -36,3 +36,45 @@ ul li:hover {
   border: none;
   font-family: Arial, Helvetica, sans-serif;
 }
+.Main-Frame3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  align-items: center;
+  margin: 45px;
+
+}
+.sub-image {
+  height: 370px;
+  width: 270px;
+}
+.Main-Frame4 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.sub-image1 {
+  object-fit: cover;
+}
+.sub-frame1 {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}
+.inner-main-con{
+  display: flex;
+  flex-direction: column;
+}
+.normal-text {
+  text-align: center;
+  padding: 20px
+}
+.Main-Frame5 {
+  display: flex;
+flex-wrap: wrap;
+  gap: 20px;
+}
+.text-content {
+  text-align: center;
+  color: rgb(32, 31, 31);
+}
