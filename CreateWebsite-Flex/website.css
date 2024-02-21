@@ -40,30 +40,38 @@ ul li:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
-  align-items: center;
-  margin: 45px;
+  /* align-items: center; */
+  /* margin: 90px; */
+  justify-content: center;
 
 }
-.sub-image {
-  height: 370px;
-  width: 270px;
+.sub-frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.two-line-para {
+ text-align: center;
+
+
 }
 .Main-Frame4 {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 25px;
 }
 .sub-image1 {
   object-fit: cover;
 }
 .sub-frame1 {
   display: flex;
-  gap: 10px;
+  gap: 25px;
   flex-direction: row;
 }
 .inner-main-con{
   display: flex;
   flex-direction: column;
+  gap: 25px;
 }
 .normal-text {
   text-align: center;
@@ -77,4 +85,81 @@ flex-wrap: wrap;
 .text-content {
   text-align: center;
   color: rgb(32, 31, 31);
+}
+.view-button {
+  margin: auto;
+}
+.view-btt {
+  background-color: #ff2020;
+  color: white;
+  border: none;
+  padding: 20px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Main-Frame6 {
+  background-image: url(../images/sectin_bg1.png.webp);
+ background-size: cover;
+  margin: auto;
+  height: 400px;
+  display: flex;
+  /* flex-direction: column; */
+  flex-shrink: 2
+}
+.video-icon {
+color: white;
+text-align: center;
+}
+.video-bttn {
+  border: none;
+  background-color: #ff2020;
+  color: white;
+  padding: 20px 40px;
+  font-size: 21px;
+}
+.Main-Frame7 {
+  display: flex;
+  gap: 30px;
+
+}
+.content-frame7 {
+ margin: auto;
+ padding: 35px;
+}
+.frame7-heading {
+  font-family: "Josefin Sans",sans-serif;
+  font-size: 40px;
+  color: black;
+}
+.para-frame7 {
+  font-family: "Roboto",sans-serif;
+  color: #777;
+  line-height: 30px;
+  font-size: 22px;
+  text-align: justify;
+}
+.frame7-bttn {
+  border: none;
+  background-color: #ff2020;
+  color: white;
+  padding: 30px 28px;
+  font-size: 21px;
+  font-weight: 600;
+  word-spacing: 6px;
+  text-transform: uppercase;
+  font-family: "Josefin Sans",sans-serif;
+}
+/*  */
+.new-Arrivals-Main{
+  width: 90%;
+    margin: auto;
+}
+.SUB-HEAD {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+  font-size: 25px;
+  color: #3b475c;
+ 
 }
