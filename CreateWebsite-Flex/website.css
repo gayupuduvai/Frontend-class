@@ -216,7 +216,29 @@ ul li:hover {
   padding: 38px;
   font-family: Roboto, sans-serif;
 }
+.frame9 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* padding: 50px; */
+  position: relative;
+}
+.frame9-logo {
+ position: absolute;
+ left: 10px;
+ top: 3px;
+}
 
+.frame9-first {
+  text-align: justify;
+  line-height: 32px;
+  /* padding: 50px; */
+  font-size: 21px;
+}
+.frame9-second {
+padding-left: 55px;
+/* position: absolute; */
+margin: auto;
+}
 /*  */
 .new-Arrivals-Main {
   width: 90%;
