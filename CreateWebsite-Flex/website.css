@@ -116,6 +116,10 @@ ul li:hover {
   max-width: 100%;
 }
 
+.frame4-subdiv1 {
+  background-size: cover;
+}
+
 .frame4-subdiv2 {
   display: flex;
   flex-direction: column;
@@ -125,7 +129,7 @@ ul li:hover {
 
 .normal-text {
   text-align: center;
-  padding: 20px
+  width: 100%;
 }
 
 .nt-heading {
@@ -144,6 +148,9 @@ ul li:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .text-content {
@@ -153,7 +160,8 @@ ul li:hover {
 
 .view-button {
   margin: auto;
-  position: relative;
+  width: 100%;
+  text-align: center;
 
 }
 
@@ -166,9 +174,7 @@ ul li:hover {
   font-weight: 600;
   text-transform: uppercase;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  position: absolute;
-  bottom: 0px;
-  left: 50%;
+
 }
 
 .Main-Frame6 {
@@ -177,31 +183,47 @@ ul li:hover {
   margin: auto;
   height: 400px;
   position: relative;
+  width: 100%;
 }
 
 .frame6-video {
   position: absolute;
-  top: 32%;
-  left: 35%;
+  top: 34%;
+  left: 46%;
 }
 
 .fa-play-circle-o {
   color: white;
+
+}
+
+.frame6-content {
+  border: none;
+  background-color: #ff2020;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+}
+
+.frame6-div {
+  align-items: center;
+}
+
+.frame6-para {
+  color: white;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: auto;
   text-align: center;
 }
 
-.frame6-bttn {
-  position: absolute;
-  bottom: 1px;
-}
-
-.video-bttn {
-  border: none;
-  background-color: #ff2020;
+.frame6-arrow {
   color: white;
-  padding: 20px 40px;
-  font-size: 21px;
-
+  text-align: center;
+  margin: auto;
 }
 
 .Main-Frame7 {
