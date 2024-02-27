@@ -1,17 +1,28 @@
 .Main-Frame1 {
   display: flex;
-  gap: 30px;
+  padding: 20px;
   align-items: center;
-  padding: 23px;
+  justify-content: space-between;
+  margin: auto;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: white;
 }
 
 ul li {
   display: inline-block;
   padding-inline: 10px;
 }
-
+.list {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  
+}
 .icons {
   padding-inline: 5px;
+  display: flex;
+  column-gap: 20px;
 }
 
 ul li:hover {
@@ -27,7 +38,8 @@ ul li:hover {
 .Main-Frame2 {
   background-color: rgb(218, 220, 224);
   display: flex;
-  align-items: top;
+  width: 100%;
+  margin: auto;
 }
 
 .heading {
