@@ -178,52 +178,46 @@ ul li:hover {
 }
 
 .Main-Frame6 {
-  background-image: url(../images/sectin_bg1.png.webp);
-  background-size: cover;
-  margin: auto;
   height: 400px;
   position: relative;
   width: 100%;
 }
 
-.frame6-video {
-  position: absolute;
-  top: 34%;
-  left: 46%;
-}
+
 
 .fa-play-circle-o {
-  color: white;
+  color: rgb(244, 245, 241);
+  border-radius: 50px;
+  position: absolute;
+  left: 50%;
+  top: 41%;
 
 }
 
-.frame6-content {
+.frame6-box {
   border: none;
   background-color: #ff2020;
-  justify-content: space-between;
+  padding: 10PX 20px;
   position: absolute;
   bottom: 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: auto;
-}
 
-.frame6-div {
-  align-items: center;
 }
 
 .frame6-para {
   color: white;
   font-size: 15px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  margin: auto;
-  text-align: center;
+
+
 }
 
 .frame6-arrow {
   color: white;
-  text-align: center;
-  margin: auto;
+  margin-left: 100px;
+  margin-top: 13px;
+
 }
 
 .Main-Frame7 {
@@ -231,7 +225,10 @@ ul li:hover {
   gap: 30px;
   flex-direction: column;
   row-gap: 95px;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .frame7-subdiv {
@@ -243,7 +240,7 @@ ul li:hover {
 
 .content-frame7 {
   margin: auto;
-  padding: 35px;
+  padding: 20px;
 }
 
 .frame7-heading {
@@ -256,20 +253,20 @@ ul li:hover {
   font-family: "Roboto", sans-serif;
   color: #777;
   line-height: 30px;
-  font-size: 22px;
-  text-align: justify;
+  font-size: 18px;
+
 }
 
 .frame7-bttn {
   border: none;
   background-color: #ff2020;
   color: white;
-  padding: 30px 28px;
-  font-size: 21px;
-  font-weight: 600;
+  padding: 20px 28px;
+  font-size: 17px;
+
   word-spacing: 6px;
   text-transform: uppercase;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 .frame8 {
@@ -289,27 +286,32 @@ ul li:hover {
 .frame9 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  /* padding: 50px; */
+  justify-content: space-evenly;
   position: relative;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .frame9-logo {
   position: absolute;
-  left: 10px;
-  top: 3px;
+  left: 0;
+  top: 17px;
 }
 
 .frame9-first {
-  text-align: justify;
-  line-height: 32px;
-  /* padding: 50px; */
-  font-size: 21px;
+  justify-content: center;
+  line-height: 25px;
+  font-size: 18px;
+  margin: auto;
 }
 
-.frame9-second {
-  padding-left: 55px;
-  /* position: absolute; */
-  margin: auto;
+.frame9-heading {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.frame9-para {
+  color: rgb(192, 192, 192);
 }
 
 /*  */
@@ -321,4 +323,10 @@ ul li:hover {
   font-size: 25px;
   color: #3b475c;
 
+}
+
+@media(max-width:1000px) {
+  .heading {
+    font-size: 59px;
+  }
 }
