@@ -224,7 +224,11 @@ ul li:hover {
   display: flex;
   gap: 30px;
   flex-direction: column;
+<<<<<<< HEAD
   row-gap: 85px;
+=======
+  /* row-gap: 95px; */
+>>>>>>> bce7d60802399517759ea11c8d00ff099e4c2fcb
   flex-wrap: wrap;
   justify-content: center;
   max-width: 1200px;
@@ -287,9 +291,9 @@ ul li:hover {
 }
 
 .frame9 {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 15px;
   position: relative;
   max-width: 1200px;
   margin: auto;
@@ -309,18 +313,25 @@ ul li:hover {
 }
 
 .frame9-first {
-  justify-content: center;
+  /* justify-content:center; */
+  /* text-align: center; */
   line-height: 25px;
+  align-content: center;
   font-size: 18px;
-  margin: auto;
+  /* margin: auto; */
+  color: gray;
+  width: 240px;
 }
-
+/* .frame9-logo-para {
+  text-align: left;
+} */
 .frame9-heading {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
 .frame9-para {
+<<<<<<< HEAD
   color: rgba(161, 156, 156, 0.911);
   cursor: pointer;
   line-height: 18px;
@@ -341,6 +352,10 @@ ul li:hover {
 .frame10-text {
   color: #888888;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+=======
+  color: rgb(192, 192, 192);
+  font-family: 'Times New Roman', Times, serif;
+>>>>>>> bce7d60802399517759ea11c8d00ff099e4c2fcb
 }
 
 /*  */
