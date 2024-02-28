@@ -32,10 +32,9 @@ ul li:hover {
 }
 
 .Main-Frame2 {
-  background-color: rgb(218, 220, 224);
+  background-color: rgb(232, 233, 235);
   display: flex;
   width: 100%;
-
 }
 
 .frame2-content {
@@ -82,8 +81,8 @@ ul li:hover {
   flex-direction: column;
   margin: auto;
   max-width: 90%;
-  padding: 90px;
   align-items: center;
+  margin-top: 100px;
 }
 
 .frame3-heading {
@@ -114,6 +113,7 @@ ul li:hover {
   column-gap: 35px;
   width: 100%;
   max-width: 100%;
+  margin-top: 120px;
 }
 
 .frame4-subdiv1 {
@@ -224,7 +224,7 @@ ul li:hover {
   display: flex;
   gap: 30px;
   flex-direction: column;
-  row-gap: 95px;
+  row-gap: 85px;
   flex-wrap: wrap;
   justify-content: center;
   max-width: 1200px;
@@ -232,9 +232,11 @@ ul li:hover {
 }
 
 .frame7-subdiv {
-  /* flex-direction: row; */
+  flex-direction: row;
   display: flex;
-  column-gap: 200px;
+  /* flex-wrap: wrap; */
+  /* width: 200px; */
+  column-gap: 90px;
   align-items: center;
 }
 
@@ -275,7 +277,8 @@ ul li:hover {
   background-color: red;
   color: white;
   /* padding: 100px; */
-  margin: 70px;
+  margin: auto;
+  max-width: 1200px;
 }
 
 .frame8-div {
@@ -298,6 +301,13 @@ ul li:hover {
   top: 17px;
 }
 
+.frame9-logopara {
+  margin-top: 47px;
+  color: #5d6166;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
 .frame9-first {
   justify-content: center;
   line-height: 25px;
@@ -311,7 +321,26 @@ ul li:hover {
 }
 
 .frame9-para {
-  color: rgb(192, 192, 192);
+  color: rgba(161, 156, 156, 0.911);
+  cursor: pointer;
+  line-height: 18px;
+}
+
+.frame9-para:hover {
+  color: red;
+}
+
+.frame10 {
+  display: flex;
+  margin: auto;
+  max-width: 1200px;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.frame10-text {
+  color: #888888;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*  */
