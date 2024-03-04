@@ -94,10 +94,9 @@ ul li:hover {
   flex-wrap: wrap;
   gap: 40px;
   flex-direction: column;
-  margin: auto;
-  max-width: 90%;
-  align-items: center;
+  max-width: 1200px;
   margin-top: 73px;
+  margin: auto;
 }
 
 .frame3-heading {
@@ -169,6 +168,7 @@ ul li:hover {
   max-width: 1200px;
   margin: auto;
   margin-top: 100px;
+  justify-content: center;
 }
 
 .text-content {
@@ -389,14 +389,94 @@ ul li:hover {
   .frame1-menu {
     display: block;
 
+
+  }
+
+  .frame1-menu :hover {
+    cursor: pointer;
+    color: red;
   }
 
   .list {
     display: none;
   }
 
+  .Main-Frame2 {
+    width: auto;
+  }
+
   .frame2-heading {
     font-size: 59px;
   }
 
+  .Main-Frame3 {
+    width: auto;
+  }
+
+  .frame3-heading {
+    font-size: large;
+  }
+
+  .frame3-images {
+    flex-wrap: wrap;
+  }
+
+  .SUB-HEAD {
+    font-size: 20px;
+  }
+
+  .normal-text {
+    margin-top: 90px;
+  }
+
+  .nt-heading {
+    font-size: 30px;
+  }
+
+  .nt-para {
+    font-size: 16px;
+  }
+
+  .Main-Frame6 {
+    height: 400px;
+    width: auto;
+  }
+
+  .Main-Frame7 {
+    max-width: 1000px;
+    justify-content: center;
+  }
+
+  .frame7-subdiv {
+    column-gap: 30px;
+    justify-content: space-evenly;
+  }
+
+  .frame7-imgs {
+    width: 400px;
+  }
+
+  .frame7-heading {
+    font-size: 30px;
+  }
+
+  .para-frame7 {
+    font-size: 17px;
+  }
+
+  .frame8 {
+    margin-top: 90px;
+    max-width: 1000px;
+  }
+
+  .frame9 {
+    max-width: 1000px;
+    column-gap: 60px;
+  }
+
+  .frame10 {
+    max-width: 1000px;
+    column-gap: 180px;
+    justify-content: left;
+  }
 }
