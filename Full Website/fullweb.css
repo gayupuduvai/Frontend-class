@@ -1,0 +1,65 @@
+.body {
+    background-image: url(https://preview.colorlib.com/theme/careers/images/hero_1.jpg);
+}
+
+.frame1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.f1-logo {
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: x-large;
+}
+
+.f1-menu {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+.f1-list {
+    color: rgb(128, 128, 128);
+}
+
+.f1-list:hover {
+    color: white;
+}
+
+ul li {
+    display: inline;
+    padding: 18px;
+}
+
+ul li:hover {
+    cursor: pointer;
+}
+
+.f1-bttn {
+    color: white;
+    background-color: rgb(6, 78, 231);
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.f2-heading {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+}
+
+.f2-para {
+    color: rgb(180, 180, 180);
+    margin-left: 36%;
+
+}
+
+.frame2-subdiv {
+    display: flex;
+    justify-content: center;
+}
