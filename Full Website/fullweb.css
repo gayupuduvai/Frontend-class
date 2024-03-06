@@ -47,19 +47,48 @@ ul li:hover {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
 
+
 .f2-heading {
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: xx-large;
+    text-align: center;
+
 }
 
 .f2-para {
     color: rgb(180, 180, 180);
-    margin-left: 36%;
+    text-align: center;
+
 
 }
 
 .frame2-subdiv {
     display: flex;
     justify-content: center;
+    gap: 25px;
+}
+
+.f2-input {
+    border: none;
+    background-color: white;
+    color: grey;
+    border-radius: 7px;
+    padding: 10px 15px;
+}
+
+.f2-selectors {
+    border: none;
+    background-color: white;
+    padding: 10px 40px;
+    border-radius: 7px;
+
+
+}
+
+.f2-bttn {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
 }
