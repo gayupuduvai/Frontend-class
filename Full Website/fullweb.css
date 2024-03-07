@@ -1,5 +1,6 @@
 .body {
     background-image: url(https://preview.colorlib.com/theme/careers/images/hero_1.jpg);
+    font-family: 'Nunito', sans-serif;
 }
 
 .frame1 {
@@ -75,20 +76,79 @@ ul li:hover {
     color: grey;
     border-radius: 7px;
     padding: 10px 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 16px;
 }
 
-.f2-selectors {
+.f2-select {
     border: none;
     background-color: white;
     padding: 10px 40px;
     border-radius: 7px;
-
-
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 16px;
 }
 
 .f2-bttn {
-    background-color: blue;
+    background-color: rgb(17, 82, 223);
     color: white;
     border: none;
     border-radius: 5px;
+    padding: 10px 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+.frame3 {
+    background-color: rgb(23, 84, 216);
+    color: white;
+    text-align: center;
+
+}
+
+.f3-heading {
+    font-family: "Nunito", sans-serif;
+    font-size: xx-large;
+    padding-top: 50px;
+}
+
+.f3-para {
+    font-family: "Nunito", sans-serif;
+    line-height: 30px;
+}
+
+.f3-subdiv {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    padding-bottom: 45px;
+
+}
+
+.f3-span {
+    font-size: 45px;
+    font-family: sans-serif;
+}
+
+.f3-text {
+    color: rgb(211, 203, 194);
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
+}
+
+.frame4 {
+    background-color: white;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.f4-subdiv1 {
+    color: black;
+    text-align: center;
+}
+
+.f4-joblist {
+    display: flex;
 }
