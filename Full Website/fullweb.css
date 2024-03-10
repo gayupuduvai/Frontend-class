@@ -141,7 +141,7 @@ ul li:hover {
 .frame4 {
     background-color: white;
     font-family: 'Nunito', sans-serif;
-
+    border-bottom: 0.5px solid grey;
 }
 
 .f4-subdiv1 {
@@ -151,4 +151,86 @@ ul li:hover {
 
 .f4-joblist {
     display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid grey;
+    justify-content: space-evenly;
+
+}
+.f4-box1 {
+    /* position: absolute;
+    left: 0; */
+}
+.f4-box2 {
+    text-align: left;
+}
+.jobbttn1 {
+    background-color: rgb(39, 39, 199);
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 4px 6px;
+    font-size: 13px;
+}
+.jobbttn2 {
+    background-color: #fff568;
+    color: black;
+    border-radius: 3px;
+    border: none;
+    padding: 4px 6px;
+    font-size: 13px;
+}.jobbttn3 {
+    background-color: #28a745;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    padding: 4px 6px;
+    font-size: 13px;
+}
+.f4-box1 {
+    height: 50px;
+    width: 50px;
+}
+.f4-designation {
+    color: rgb(39, 94, 214);
+    text-decoration: underline;
+}
+.f4-subdiv3 {
+    display: inline-block;
+    margin-left: 12%;
+    margin-top: 20px;
+    padding: 20px;
+    margin-bottom: 85px;
+    
+}
+.pre-bttn {
+    color: blue;
+    border: 1px solid gainsboro;
+    padding: 6px 20px;
+    border-radius: 3px;
+    font-family: 'Nunito', sans-serif;
+    background-color: white;
+}
+.nxt-bttn {
+    color: blue;
+    border: 1px solid gainsboro;
+    padding: 6px 15px;
+    border-radius: 3px;
+    font-family: 'Nunito', sans-serif;
+    background-color: white;
+}
+.one-bttn, .two-bttn, .three-bttn, .four-bttn {
+    border-radius: 50%;
+    border: 1px solid gainsboro;
+    padding: 7px;
+    color: blue;
+    background-color: white;
+}
+.one-bttn {
+    background-color: blue;
+    color: white;
+}
+.pre-bttn:hover, .nxt-bttn:hover, .two-bttn:hover, .three-bttn:hover, .four-bttn:hover {
+    cursor: pointer;
+    background-color: blue;
+    color: white;
 }
