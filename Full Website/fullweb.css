@@ -281,3 +281,62 @@ ul li:hover {
     height: 100px;
     width: 150px;
 }
+
+.signup-div {
+    display: flex;
+    background-color: rgb(22, 54, 201);
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.signup-text {
+    color: white;
+    text-align: left;
+}
+
+.signup-bttn {
+    margin-top: 35px;
+}
+
+.sigup-bttn {
+    background-color: #fff568;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 60px;
+    text-align: center;
+    font-size: 17px;
+
+}
+
+#heading {
+    font-size: x-large;
+}
+
+.footer {
+    background-color: rgb(29, 28, 28);
+    padding-bottom: 50px;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.footer-para {
+    color: grey;
+}
+
+.copyright {
+    color: grey;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+#footer-rights:hover,
+.footer-para:hover {
+    cursor: pointer;
+    color: white;
+    text-decoration: underline;
+}
