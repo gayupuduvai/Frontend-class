@@ -1,6 +1,7 @@
 .body {
     background-image: url(https://preview.colorlib.com/theme/careers/images/hero_1.jpg);
     font-family: 'Nunito', sans-serif;
+    /* opacity: 0.5; */
 }
 
 .frame1 {
@@ -287,6 +288,10 @@ ul li:hover {
     background-color: rgb(22, 54, 201);
     margin: auto;
     justify-content: space-evenly;
+    /* opacity: 0.5; */
+    /* width: 100%; */
+    /* position: relative; */
+
 }
 
 .signup-text {
@@ -332,6 +337,19 @@ ul li:hover {
     text-align: center;
     padding-top: 20px;
 
+}
+
+.footer-media {
+    display: flex;
+    column-gap: 5px;
+}
+
+.footer-icon {
+    background-color: rgb(9, 78, 224);
+    color: white;
+    border-radius: 50%;
+    border: none;
+    padding: 10px;
 }
 
 #footer-rights:hover,
