@@ -374,3 +374,29 @@ ul li:hover {
     color: white;
     text-decoration: underline;
 }
+
+.Carousel-div {
+    display: flex;
+    gap: 20px;
+}
+
+
+.carousel-bttn {
+    border: none;
+    border-radius: 50%;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slide-para {
+    font-style: italic;
+    color: gray;
+    text-align: center;
+}
+
+.slide-name {
+    font-style: italic;
+    text-align: center;
+}
