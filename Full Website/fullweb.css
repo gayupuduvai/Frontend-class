@@ -1,13 +1,23 @@
 .body {
     background-image: url(https://preview.colorlib.com/theme/careers/images/hero_1.jpg);
+    /* height: 100%; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
     font-family: 'Nunito', sans-serif;
-    /* opacity: 0.5; */
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    
 }
 
 .frame1 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    
+    
 }
 
 .f1-logo {
@@ -51,6 +61,7 @@ ul li:hover {
 
 .frame2 {
     margin-top: 240px;
+    
 }
 
 .f2-heading {
@@ -106,12 +117,13 @@ ul li:hover {
 }
 
 .frame3 {
-    background-color: rgb(23, 84, 216);
+    background-color: rgb(23, 84, 216, 0.9);
     color: white;
     text-align: center;
-    position: absolute;
+    margin-bottom: -20px;
+    /* position: absolute;
     right: 0;
-    left: 0;
+    left: 0; */
 }
 
 .f3-heading {
@@ -158,23 +170,42 @@ ul li:hover {
 .f4-subdiv1 {
     color: black;
     text-align: center;
+    /* border-bottom: 0.5px solid grey; */
 }
-
+.f4-subdiv2 {
+    /* border-bottom: 0.5px solid grey; */
+}
 .f4-joblist {
     display: flex;
     align-items: center;
-    border-bottom: 0.5px solid grey;
+    /* max-width: 1200px; */
     justify-content: space-evenly;
-
+    border-bottom: 0.5px solid grey;
+    position: relative;
+    margin: auto;
 }
 
 .f4-box1 {
     /* position: absolute;
-    left: 0; */
+    left: 150px; */
+    height: 50px;
+    width: 50px;
+        
+    
 }
 
 .f4-box2 {
-    text-align: left;
+    /* position: absolute;
+    left: 280px; */
+    justify-content: center;
+}
+.f4-box3 {
+    /* position: absolute;
+    left: 600px; */
+}
+.f4-box4 {
+    /* position: absolute;
+    left: 800px; */
 }
 
 .jobbttn1 {
@@ -202,11 +233,6 @@ ul li:hover {
     border: none;
     padding: 4px 6px;
     font-size: 13px;
-}
-
-.f4-box1 {
-    height: 50px;
-    width: 50px;
 }
 
 .f4-designation {
@@ -295,7 +321,7 @@ ul li:hover {
 
 .signup-div {
     display: flex;
-    background-color: rgb(22, 54, 201);
+    background-color: rgb(22, 54, 201, 0.9);
     margin: auto;
     justify-content: space-evenly;
     /* opacity: 0.5; */
