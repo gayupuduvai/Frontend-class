@@ -58,18 +58,71 @@
 
 // Calculate area of square, rectangle
 
-let shape="square";
-var area;
-switch (shape) {
-    case "square":
-        let a=prompt("Enter the sides of a square");
-        area=a*a;
-        console.log(`Area of a Square is ${area}`);
+// let shape = prompt("Enter the shape:");
+// var area;
+// switch (shape) {
+//     case "square":
+//         let a = prompt("Enter the sides of a square");
+//         area = a * a;
+//         console.log(`Area of a Square is ${area}`);
+//         break;
+//     case "rectangle":
+//         let length = prompt("Enter the length of a rectangle");
+//         let width = prompt("Enter the width of a rectangle");
+//         area = length * width;
+//         console.log(`Area of a rectangle is ${area}`);
+//         break;
+//     case "triangle":
+//         let base = prompt("Enter the base of a triangle");
+//         let height = prompt("Enter the height of a triangle");
+//         area = (base * height) / 2;
+//         console.log(`Area of a triangle is ${area}`);
+//         break;
+//     default:
+//         console.log("Invaild data entered");
+// }
+
+// Determine the month based on its days:
+
+// var month = prompt("Enter the month");
+// switch (month) {
+//     case "January":
+//     case "March":
+//     case "May":
+//     case "July":
+//     case "August":
+//     case "October":
+//     case "December":
+//         console.log(`${month} has 31 days`);
+//         break;
+//     case "April":
+//     case "June":
+//     case "September":
+//     case "November":
+//         console.log(`${month} has 30 days`);
+//         break;
+//     case "February":
+//         console.log(`${month} has 28 days`);
+//         break;
+//     default:
+//         console.log(month, "Entered invalid data");
+// }
+
+// Calculate the angle (acute, right, obtuse, straight)
+
+var ang_value = parseInt(prompt("Enter the angle"));
+let angle;
+switch (ang_value) {
+    case "Acute":
+        angle < 90;
+        console.log(`${angle} is an Acute angle`);
         break;
-    case "rectangle":
-        let length=prompt("Enter the length of a rectangle");
-        let width=prompt("Enter the width of a rectangle");
-        area=length*width;
-        console.log(`Area of a rectangle is ${area}`);
+    case "Right":
+        angle == 90;
+        console.log(`${angle} is an Right angle`);
         break;
+    // case "Obtuse":
+    //     angle(> 90 && < 180);
+    //     console.log(`${angle} is an Right angle`);
+    //     break;
 }
